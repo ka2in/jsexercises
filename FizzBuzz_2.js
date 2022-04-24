@@ -1,7 +1,7 @@
 /* Solutions to the exercises of the Book 'Eloquent Javascript', Marijn Haverbeke, No Starch Press, Third Edition.
-* Solutions provided by: Faycal Alami-Hassani
-* https://github.com/ka2in
-*/
+ * Solutions provided by: Faycal Alami-Hassani
+ * https://github.com/ka2in
+ */
 
 
 let num = 0;
@@ -13,6 +13,5 @@ for (let counter = 0; counter <= 99; counter += 1) { // Defining the counter
     console.log('Buzz');
   } else if (num % 5 === 0) { // Remainder for 5
     console.log('Fizz');
-  }
-  else console.log(num) // For all other numbers
+  } else console.log(num) // For all other numbers
 }
