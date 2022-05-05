@@ -19,7 +19,7 @@ function range(start, end, step) {
         }
         return myarray;
     }
-    else if (start > end) { /* Conditional for end value smaller than start value within range */
+    else { /* Conditional for end value smaller than start value within range */
         let myarray = []; /* Initializing with an empty array */
         let index = start; /* Declaring an index variable to avoid incrementation being passed to the for loop */
         for (let i = 0; i <= start - end && index <= start; i++) { /* Defining the range of the array index */
@@ -29,7 +29,6 @@ function range(start, end, step) {
         return myarray;
     } 
 }
-
 
 
 console.log(range(5, 2, -1));
